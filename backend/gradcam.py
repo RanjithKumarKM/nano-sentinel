@@ -43,7 +43,7 @@ def generate_gradcam(wafer):
 
     with tf.GradientTape() as tape:
         conv_features, backbone_features = backbone_grad_model(
-            batch,
+            [batch],
             training=False
         )
 

@@ -1,0 +1,18 @@
+{
+  "model": "ResNet50 lot-aware validation",
+  "train_samples": 2548,
+  "validation_samples": 622,
+  "validation_accuracy": 0.7829581993569131,
+  "validation_macro_f1": 0.8055950893095503,
+  "class_names": [
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-full",
+    "Random",
+    "Scratch",
+    "none"
+  ]
+}

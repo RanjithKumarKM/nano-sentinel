@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-D64065FB33",
+  "timestamp_utc": "2026-10-22T13:24:23.810515+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0013.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 57.63,
+    "probabilities": {
+      "Center": 0.00041739,
+      "Donut": 0.00519034,
+      "Edge-Loc": 0.2928057,
+      "Edge-Ring": 0.11516613,
+      "Loc": 0.00333079,
+      "Near-full": 0.00198112,
+      "Random": 0.00231672,
+      "Scratch": 0.57632923,
+      "none": 0.00246265
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 1833,
+    "defect_ratio_percent": 32.78,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 57.63,
+  "probabilities": {
+    "Center": 0.00041739,
+    "Donut": 0.00519034,
+    "Edge-Loc": 0.2928057,
+    "Edge-Ring": 0.11516613,
+    "Loc": 0.00333079,
+    "Near-full": 0.00198112,
+    "Random": 0.00231672,
+    "Scratch": 0.57632923,
+    "none": 0.00246265
+  },
+  "filename": "demo_wafer_0013.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 1833,
+  "defect_ratio_percent": 32.78,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:23.810515+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-D64065FB33.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-D64065FB33_inspection_report.pdf"
+}

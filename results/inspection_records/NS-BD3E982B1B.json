@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-BD3E982B1B",
+  "timestamp_utc": "2026-10-22T13:24:35.730550+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0089.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 99.99,
+    "probabilities": {
+      "Center": 1.3e-07,
+      "Donut": 4.1e-07,
+      "Edge-Loc": 3.222e-05,
+      "Edge-Ring": 9.143e-05,
+      "Loc": 1.575e-05,
+      "Near-full": 2.5e-07,
+      "Random": 2.21e-06,
+      "Scratch": 0.99985671,
+      "none": 7.8e-07
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 316,
+    "defect_ratio_percent": 5.65,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 99.99,
+  "probabilities": {
+    "Center": 1.3e-07,
+    "Donut": 4.1e-07,
+    "Edge-Loc": 3.222e-05,
+    "Edge-Ring": 9.143e-05,
+    "Loc": 1.575e-05,
+    "Near-full": 2.5e-07,
+    "Random": 2.21e-06,
+    "Scratch": 0.99985671,
+    "none": 7.8e-07
+  },
+  "filename": "demo_wafer_0089.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 316,
+  "defect_ratio_percent": 5.65,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+  "status": "HIGH_CONFIDENCE_PREDICTION",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:35.730550+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-BD3E982B1B.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-BD3E982B1B_inspection_report.pdf"
+}

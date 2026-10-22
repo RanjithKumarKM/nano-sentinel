@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-D0FA884004",
+  "timestamp_utc": "2026-10-22T13:24:26.076987+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0028.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Center",
+    "confidence_percent": 49.92,
+    "probabilities": {
+      "Center": 0.49923283,
+      "Donut": 0.44111922,
+      "Edge-Loc": 3.33e-06,
+      "Edge-Ring": 2.74e-06,
+      "Loc": 0.05911946,
+      "Near-full": 1.23e-06,
+      "Random": 2.742e-05,
+      "Scratch": 2.423e-05,
+      "none": 0.00046954
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 440,
+    "defect_ratio_percent": 7.87,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Center",
+  "confidence_percent": 49.92,
+  "probabilities": {
+    "Center": 0.49923283,
+    "Donut": 0.44111922,
+    "Edge-Loc": 3.33e-06,
+    "Edge-Ring": 2.74e-06,
+    "Loc": 0.05911946,
+    "Near-full": 1.23e-06,
+    "Random": 2.742e-05,
+    "Scratch": 2.423e-05,
+    "none": 0.00046954
+  },
+  "filename": "demo_wafer_0028.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 440,
+  "defect_ratio_percent": 7.87,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:26.076987+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-D0FA884004.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-D0FA884004_inspection_report.pdf"
+}

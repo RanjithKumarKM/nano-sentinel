@@ -1,0 +1,40 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Local database and generated reports
+database/inspection_history.db
+reports/generated/
+
+# Generated inspection input/output
+backend/Incoming/
+backend/Processed/
+backend/Output/

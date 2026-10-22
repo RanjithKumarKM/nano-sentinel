@@ -1,0 +1,24 @@
+{
+  "label_to_id": {
+    "Center": 0,
+    "Donut": 1,
+    "Edge-Loc": 2,
+    "Edge-Ring": 3,
+    "Loc": 4,
+    "Near-full": 5,
+    "Random": 6,
+    "Scratch": 7,
+    "none": 8
+  },
+  "id_to_label": {
+    "0": "Center",
+    "1": "Donut",
+    "2": "Edge-Loc",
+    "3": "Edge-Ring",
+    "4": "Loc",
+    "5": "Near-full",
+    "6": "Random",
+    "7": "Scratch",
+    "8": "none"
+  }
+}

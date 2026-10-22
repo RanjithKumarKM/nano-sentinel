@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-A9AA119A14",
+  "timestamp_utc": "2026-10-22T13:24:27.504852+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0037.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 68.72,
+    "probabilities": {
+      "Center": 0.24975944,
+      "Donut": 0.68716705,
+      "Edge-Loc": 7.04e-06,
+      "Edge-Ring": 4.18e-06,
+      "Loc": 0.06194946,
+      "Near-full": 3.84e-06,
+      "Random": 5.24e-05,
+      "Scratch": 2.922e-05,
+      "none": 0.00102735
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 812,
+    "defect_ratio_percent": 14.52,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Donut",
+  "confidence_percent": 68.72,
+  "probabilities": {
+    "Center": 0.24975944,
+    "Donut": 0.68716705,
+    "Edge-Loc": 7.04e-06,
+    "Edge-Ring": 4.18e-06,
+    "Loc": 0.06194946,
+    "Near-full": 3.84e-06,
+    "Random": 5.24e-05,
+    "Scratch": 2.922e-05,
+    "none": 0.00102735
+  },
+  "filename": "demo_wafer_0037.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 812,
+  "defect_ratio_percent": 14.52,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:27.504852+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-A9AA119A14.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-A9AA119A14_inspection_report.pdf"
+}

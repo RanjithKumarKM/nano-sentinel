@@ -1,0 +1,36 @@
+{
+  "inspection_id": "NS-1E3CD72D14",
+  "timestamp_utc": "2026-10-22T09:50:19.582054+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "test_wafer.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "none",
+    "confidence_percent": 99.16,
+    "probabilities": {
+      "Center": 0.00036511,
+      "Donut": 5.35e-06,
+      "Edge-Loc": 0.00446018,
+      "Edge-Ring": 0.00013773,
+      "Loc": 0.00218563,
+      "Near-full": 1.394e-05,
+      "Random": 2.472e-05,
+      "Scratch": 0.00119631,
+      "none": 0.99161094
+    }
+  },
+  "severity": {
+    "total_die_pixels": 1683,
+    "defective_die_pixels": 88,
+    "defect_ratio_percent": 5.23,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  }
+}

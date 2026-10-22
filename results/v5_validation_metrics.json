@@ -1,0 +1,16 @@
+{
+  "model": "EfficientNetB0 V5",
+  "validation_accuracy": 0.7528373266078184,
+  "validation_macro_f1": 0.7532068149164562,
+  "class_names": [
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-full",
+    "Random",
+    "Scratch",
+    "none"
+  ]
+}

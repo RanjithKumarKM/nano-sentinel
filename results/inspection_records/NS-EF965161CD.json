@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-EF965161CD",
+  "timestamp_utc": "2026-10-22T13:24:32.696041+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0070.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 53.96,
+    "probabilities": {
+      "Center": 0.01388724,
+      "Donut": 0.00270236,
+      "Edge-Loc": 0.03039379,
+      "Edge-Ring": 0.00684947,
+      "Loc": 0.08502489,
+      "Near-full": 0.00072135,
+      "Random": 0.0067902,
+      "Scratch": 0.53960025,
+      "none": 0.31403047
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 188,
+    "defect_ratio_percent": 3.36,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 53.96,
+  "probabilities": {
+    "Center": 0.01388724,
+    "Donut": 0.00270236,
+    "Edge-Loc": 0.03039379,
+    "Edge-Ring": 0.00684947,
+    "Loc": 0.08502489,
+    "Near-full": 0.00072135,
+    "Random": 0.0067902,
+    "Scratch": 0.53960025,
+    "none": 0.31403047
+  },
+  "filename": "demo_wafer_0070.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 188,
+  "defect_ratio_percent": 3.36,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:32.696041+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-EF965161CD.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-EF965161CD_inspection_report.pdf"
+}

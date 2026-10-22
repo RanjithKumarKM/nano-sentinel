@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-AA195C3563",
+  "timestamp_utc": "2026-10-22T13:24:28.390845+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0043.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 51.53,
+    "probabilities": {
+      "Center": 0.01396178,
+      "Donut": 0.00114651,
+      "Edge-Loc": 0.05280522,
+      "Edge-Ring": 0.02714906,
+      "Loc": 0.0980664,
+      "Near-full": 0.00060064,
+      "Random": 0.00736354,
+      "Scratch": 0.51533031,
+      "none": 0.28357658
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 146,
+    "defect_ratio_percent": 2.61,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 51.53,
+  "probabilities": {
+    "Center": 0.01396178,
+    "Donut": 0.00114651,
+    "Edge-Loc": 0.05280522,
+    "Edge-Ring": 0.02714906,
+    "Loc": 0.0980664,
+    "Near-full": 0.00060064,
+    "Random": 0.00736354,
+    "Scratch": 0.51533031,
+    "none": 0.28357658
+  },
+  "filename": "demo_wafer_0043.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 146,
+  "defect_ratio_percent": 2.61,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:28.390845+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-AA195C3563.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-AA195C3563_inspection_report.pdf"
+}

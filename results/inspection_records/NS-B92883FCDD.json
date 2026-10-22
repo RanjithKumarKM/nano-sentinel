@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-B92883FCDD",
+  "timestamp_utc": "2026-10-22T13:24:30.246821+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0056.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 99.99,
+    "probabilities": {
+      "Center": 6.332e-05,
+      "Donut": 0.99990141,
+      "Edge-Loc": 4e-08,
+      "Edge-Ring": 6e-07,
+      "Loc": 2.153e-05,
+      "Near-full": 8e-08,
+      "Random": 3.8e-07,
+      "Scratch": 4.1e-07,
+      "none": 1.219e-05
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 1190,
+    "defect_ratio_percent": 21.28,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Donut",
+  "confidence_percent": 99.99,
+  "probabilities": {
+    "Center": 6.332e-05,
+    "Donut": 0.99990141,
+    "Edge-Loc": 4e-08,
+    "Edge-Ring": 6e-07,
+    "Loc": 2.153e-05,
+    "Near-full": 8e-08,
+    "Random": 3.8e-07,
+    "Scratch": 4.1e-07,
+    "none": 1.219e-05
+  },
+  "filename": "demo_wafer_0056.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 1190,
+  "defect_ratio_percent": 21.28,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+  "status": "HIGH_CONFIDENCE_PREDICTION",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:30.246821+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-B92883FCDD.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-B92883FCDD_inspection_report.pdf"
+}

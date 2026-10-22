@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-4C73E3ABAC",
+  "timestamp_utc": "2026-10-22T13:24:21.714055+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0001.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 66.39,
+    "probabilities": {
+      "Center": 0.30321953,
+      "Donut": 0.66390014,
+      "Edge-Loc": 9.3e-07,
+      "Edge-Ring": 7.4e-07,
+      "Loc": 0.03253463,
+      "Near-full": 7.1e-07,
+      "Random": 2.724e-05,
+      "Scratch": 2.144e-05,
+      "none": 0.00029461
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 693,
+    "defect_ratio_percent": 12.39,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Donut",
+  "confidence_percent": 66.39,
+  "probabilities": {
+    "Center": 0.30321953,
+    "Donut": 0.66390014,
+    "Edge-Loc": 9.3e-07,
+    "Edge-Ring": 7.4e-07,
+    "Loc": 0.03253463,
+    "Near-full": 7.1e-07,
+    "Random": 2.724e-05,
+    "Scratch": 2.144e-05,
+    "none": 0.00029461
+  },
+  "filename": "demo_wafer_0001.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 693,
+  "defect_ratio_percent": 12.39,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:21.714055+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-4C73E3ABAC.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-4C73E3ABAC_inspection_report.pdf"
+}

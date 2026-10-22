@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-677ED565B0",
+  "timestamp_utc": "2026-10-22T13:24:23.649495+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0012.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Loc",
+    "confidence_percent": 74.09,
+    "probabilities": {
+      "Center": 0.00063248,
+      "Donut": 0.00071608,
+      "Edge-Loc": 0.05835688,
+      "Edge-Ring": 0.00018065,
+      "Loc": 0.74088711,
+      "Near-full": 0.00010294,
+      "Random": 0.00029451,
+      "Scratch": 0.18493156,
+      "none": 0.01389777
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 389,
+    "defect_ratio_percent": 6.96,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Loc",
+  "confidence_percent": 74.09,
+  "probabilities": {
+    "Center": 0.00063248,
+    "Donut": 0.00071608,
+    "Edge-Loc": 0.05835688,
+    "Edge-Ring": 0.00018065,
+    "Loc": 0.74088711,
+    "Near-full": 0.00010294,
+    "Random": 0.00029451,
+    "Scratch": 0.18493156,
+    "none": 0.01389777
+  },
+  "filename": "demo_wafer_0012.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 389,
+  "defect_ratio_percent": 6.96,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:23.649495+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-677ED565B0.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-677ED565B0_inspection_report.pdf"
+}

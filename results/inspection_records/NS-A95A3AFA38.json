@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-A95A3AFA38",
+  "timestamp_utc": "2026-10-22T13:24:36.652168+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0095.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Center",
+    "confidence_percent": 66.06,
+    "probabilities": {
+      "Center": 0.66057944,
+      "Donut": 0.03359883,
+      "Edge-Loc": 9.88e-06,
+      "Edge-Ring": 3.4e-06,
+      "Loc": 0.30425406,
+      "Near-full": 9.2e-07,
+      "Random": 4.667e-05,
+      "Scratch": 0.0004976,
+      "none": 0.00100916
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 236,
+    "defect_ratio_percent": 4.22,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Center",
+  "confidence_percent": 66.06,
+  "probabilities": {
+    "Center": 0.66057944,
+    "Donut": 0.03359883,
+    "Edge-Loc": 9.88e-06,
+    "Edge-Ring": 3.4e-06,
+    "Loc": 0.30425406,
+    "Near-full": 9.2e-07,
+    "Random": 4.667e-05,
+    "Scratch": 0.0004976,
+    "none": 0.00100916
+  },
+  "filename": "demo_wafer_0095.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 236,
+  "defect_ratio_percent": 4.22,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:36.652168+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-A95A3AFA38.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-A95A3AFA38_inspection_report.pdf"
+}

@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-2A657C265A",
+  "timestamp_utc": "2026-10-22T13:24:29.378419+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0050.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 58.27,
+    "probabilities": {
+      "Center": 0.17390959,
+      "Donut": 0.58272451,
+      "Edge-Loc": 1.027e-05,
+      "Edge-Ring": 1.099e-05,
+      "Loc": 0.24173017,
+      "Near-full": 1.11e-06,
+      "Random": 4.192e-05,
+      "Scratch": 0.00024734,
+      "none": 0.00132409
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 272,
+    "defect_ratio_percent": 4.86,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Donut",
+  "confidence_percent": 58.27,
+  "probabilities": {
+    "Center": 0.17390959,
+    "Donut": 0.58272451,
+    "Edge-Loc": 1.027e-05,
+    "Edge-Ring": 1.099e-05,
+    "Loc": 0.24173017,
+    "Near-full": 1.11e-06,
+    "Random": 4.192e-05,
+    "Scratch": 0.00024734,
+    "none": 0.00132409
+  },
+  "filename": "demo_wafer_0050.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 272,
+  "defect_ratio_percent": 4.86,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:29.378419+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-2A657C265A.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-2A657C265A_inspection_report.pdf"
+}

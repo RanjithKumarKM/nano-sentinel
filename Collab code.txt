@@ -1,0 +1,54 @@
+import numpy as np
+import tensorflow as tf
+import matplotlib.pyplot as plt
+
+print("TensorFlow:", tf.__version__)
+print("GPU:", tf.config.list_physical_devices("GPU"))
+
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+plt.figure(figsize=(10, 4))
+
+for i in range(5):
+    plt.subplot(1, 5, i + 1)
+    plt.imshow(X[i], cmap="gray")
+    plt.axis("off")
+    plt.title(f"Sample {i + 1}")
+
+plt.tight_layout()
+plt.show()
+
+
+
+model = tf.keras.models.load_model(
+    "/content/drive/MyDrive/nano_sentinel_mobilenetv2_v2.keras"
+)
+
+model.summary()
+
+
+
+class_names = [
+    "Center", "Donut", "Edge-Loc", "Edge-Ring",
+    "Loc", "Near-full", "Random", "Scratch", "none"
+]
+
+pred = model.predict(X_test[:1], verbose=0)[0]
+idx = np.argmax(pred)
+
+print("Predicted class:", class_names[idx])
+print("Confidence:", f"{pred[idx] * 100:.2f}%")
+
+
+
+plt.figure(figsize=(9, 4))
+plt.bar(class_names, pred * 100)
+plt.ylabel("Model output (%)")
+plt.title("Wafer Defect Class Probabilities")
+plt.xticks(rotation=45, ha="right")
+plt.tight_layout()
+plt.show()
+

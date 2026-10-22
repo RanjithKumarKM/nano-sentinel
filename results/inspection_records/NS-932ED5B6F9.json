@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-932ED5B6F9",
+  "timestamp_utc": "2026-10-22T13:24:28.878752+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0046.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Center",
+    "confidence_percent": 81.06,
+    "probabilities": {
+      "Center": 0.81061071,
+      "Donut": 0.11992508,
+      "Edge-Loc": 6.3e-07,
+      "Edge-Ring": 4.8e-07,
+      "Loc": 0.06917248,
+      "Near-full": 2.8e-07,
+      "Random": 1.5e-05,
+      "Scratch": 5.507e-05,
+      "none": 0.0002202
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 321,
+    "defect_ratio_percent": 5.74,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Center",
+  "confidence_percent": 81.06,
+  "probabilities": {
+    "Center": 0.81061071,
+    "Donut": 0.11992508,
+    "Edge-Loc": 6.3e-07,
+    "Edge-Ring": 4.8e-07,
+    "Loc": 0.06917248,
+    "Near-full": 2.8e-07,
+    "Random": 1.5e-05,
+    "Scratch": 5.507e-05,
+    "none": 0.0002202
+  },
+  "filename": "demo_wafer_0046.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 321,
+  "defect_ratio_percent": 5.74,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:28.878752+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-932ED5B6F9.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-932ED5B6F9_inspection_report.pdf"
+}

@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-4FD6066069",
+  "timestamp_utc": "2026-10-22T13:24:22.430895+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0005.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Center",
+    "confidence_percent": 70.96,
+    "probabilities": {
+      "Center": 0.70960248,
+      "Donut": 0.16836293,
+      "Edge-Loc": 3.81e-06,
+      "Edge-Ring": 1.15e-06,
+      "Loc": 0.12064755,
+      "Near-full": 8.2e-07,
+      "Random": 3.125e-05,
+      "Scratch": 0.00036326,
+      "none": 0.00098688
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 231,
+    "defect_ratio_percent": 4.13,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Center",
+  "confidence_percent": 70.96,
+  "probabilities": {
+    "Center": 0.70960248,
+    "Donut": 0.16836293,
+    "Edge-Loc": 3.81e-06,
+    "Edge-Ring": 1.15e-06,
+    "Loc": 0.12064755,
+    "Near-full": 8.2e-07,
+    "Random": 3.125e-05,
+    "Scratch": 0.00036326,
+    "none": 0.00098688
+  },
+  "filename": "demo_wafer_0005.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 231,
+  "defect_ratio_percent": 4.13,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:22.430895+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-4FD6066069.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-4FD6066069_inspection_report.pdf"
+}

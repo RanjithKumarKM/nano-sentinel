@@ -1,0 +1,47 @@
+{
+  "inspection_id": "NS-DIVERSE-009",
+  "timestamp_utc": "2026-10-12T13:59:44.213976+00:00",
+  "source": {
+    "type": "labelled_dataset_diagnostic",
+    "dataset_row_id": 7316,
+    "true_label": "Donut"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 90.47,
+    "probabilities": {
+      "Center": 0.033428341150283813,
+      "Donut": 0.904731810092926,
+      "Edge-Loc": 1.667311880737543e-05,
+      "Edge-Ring": 1.2687410162470769e-05,
+      "Loc": 0.06162087619304657,
+      "Near-full": 1.9120611796097364e-06,
+      "Random": 1.698832056717947e-05,
+      "Scratch": 0.00013607743312604725,
+      "none": 3.46427877957467e-05
+    }
+  },
+  "explainability": {
+    "method": "Grad-CAM",
+    "target_layer": "block_13_expand",
+    "visualization_path": "/content/drive/MyDrive/NanoSentinel/results/gradcam/NS-DIVERSE-009_gradcam.png"
+  },
+  "severity": {
+    "total_die_pixels": 1091,
+    "defective_die_pixels": 281,
+    "defect_ratio_percent": 25.76,
+    "severity_category": "HIGH",
+    "note": "Provisional map-based category; thresholds are not validated against manufacturing quality standards."
+  },
+  "decision": {
+    "predicted_class": "Donut",
+    "confidence_percent": 90.47,
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "decision_reason": "High model confidence; prediction still requires validation against inspection evidence.",
+    "recommendation": "Predicted defect class: Donut. Review the wafer map and Grad-CAM before deciding on reinspection or corrective action.",
+    "severity_score": null,
+    "severity_note": "Physical defect severity is not yet calibrated; no numerical severity score assigned."
+  }
+}

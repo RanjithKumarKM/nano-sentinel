@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-9FAD126EA8",
+  "timestamp_utc": "2026-10-22T13:24:36.497179+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0094.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Edge-Loc",
+    "confidence_percent": 48.87,
+    "probabilities": {
+      "Center": 0.00127205,
+      "Donut": 0.07995678,
+      "Edge-Loc": 0.4886564,
+      "Edge-Ring": 0.0833877,
+      "Loc": 0.03097474,
+      "Near-full": 0.01374388,
+      "Random": 0.00920057,
+      "Scratch": 0.28408331,
+      "none": 0.00872459
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 1992,
+    "defect_ratio_percent": 35.62,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Edge-Loc",
+  "confidence_percent": 48.87,
+  "probabilities": {
+    "Center": 0.00127205,
+    "Donut": 0.07995678,
+    "Edge-Loc": 0.4886564,
+    "Edge-Ring": 0.0833877,
+    "Loc": 0.03097474,
+    "Near-full": 0.01374388,
+    "Random": 0.00920057,
+    "Scratch": 0.28408331,
+    "none": 0.00872459
+  },
+  "filename": "demo_wafer_0094.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 1992,
+  "defect_ratio_percent": 35.62,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:36.497179+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-9FAD126EA8.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-9FAD126EA8_inspection_report.pdf"
+}

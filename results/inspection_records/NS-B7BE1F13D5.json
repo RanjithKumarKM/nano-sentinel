@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-B7BE1F13D5",
+  "timestamp_utc": "2026-10-22T13:24:29.173597+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0048.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Loc",
+    "confidence_percent": 77.22,
+    "probabilities": {
+      "Center": 0.00045763,
+      "Donut": 0.00069796,
+      "Edge-Loc": 0.01418068,
+      "Edge-Ring": 0.0004406,
+      "Loc": 0.77218026,
+      "Near-full": 0.00014627,
+      "Random": 0.00054496,
+      "Scratch": 0.18814978,
+      "none": 0.02320183
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 421,
+    "defect_ratio_percent": 7.53,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Loc",
+  "confidence_percent": 77.22,
+  "probabilities": {
+    "Center": 0.00045763,
+    "Donut": 0.00069796,
+    "Edge-Loc": 0.01418068,
+    "Edge-Ring": 0.0004406,
+    "Loc": 0.77218026,
+    "Near-full": 0.00014627,
+    "Random": 0.00054496,
+    "Scratch": 0.18814978,
+    "none": 0.02320183
+  },
+  "filename": "demo_wafer_0048.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 421,
+  "defect_ratio_percent": 7.53,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:29.173597+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-B7BE1F13D5.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-B7BE1F13D5_inspection_report.pdf"
+}

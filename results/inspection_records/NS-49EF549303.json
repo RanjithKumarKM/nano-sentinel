@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-49EF549303",
+  "timestamp_utc": "2026-10-22T13:24:32.339583+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0068.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Center",
+    "confidence_percent": 65.98,
+    "probabilities": {
+      "Center": 0.65975088,
+      "Donut": 0.06024289,
+      "Edge-Loc": 8.78e-06,
+      "Edge-Ring": 6.26e-06,
+      "Loc": 0.27843168,
+      "Near-full": 2.25e-06,
+      "Random": 2.915e-05,
+      "Scratch": 0.00058426,
+      "none": 0.00094384
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 159,
+    "defect_ratio_percent": 2.84,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Center",
+  "confidence_percent": 65.98,
+  "probabilities": {
+    "Center": 0.65975088,
+    "Donut": 0.06024289,
+    "Edge-Loc": 8.78e-06,
+    "Edge-Ring": 6.26e-06,
+    "Loc": 0.27843168,
+    "Near-full": 2.25e-06,
+    "Random": 2.915e-05,
+    "Scratch": 0.00058426,
+    "none": 0.00094384
+  },
+  "filename": "demo_wafer_0068.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 159,
+  "defect_ratio_percent": 2.84,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:32.339583+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-49EF549303.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-49EF549303_inspection_report.pdf"
+}

@@ -1,0 +1,47 @@
+{
+  "inspection_id": "NS-DIVERSE-003",
+  "timestamp_utc": "2026-10-12T13:59:23.001112+00:00",
+  "source": {
+    "type": "labelled_dataset_diagnostic",
+    "dataset_row_id": 36,
+    "true_label": "Edge-Loc"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "none",
+    "confidence_percent": 72.15,
+    "probabilities": {
+      "Center": 0.0010638614185154438,
+      "Donut": 9.249139111489058e-05,
+      "Edge-Loc": 0.23359186947345734,
+      "Edge-Ring": 0.0013436598237603903,
+      "Loc": 0.030263876542448997,
+      "Near-full": 0.000299842213280499,
+      "Random": 0.0003875615948345512,
+      "Scratch": 0.01145743578672409,
+      "none": 0.7214993834495544
+    }
+  },
+  "explainability": {
+    "method": "Grad-CAM",
+    "target_layer": "block_13_expand",
+    "visualization_path": "/content/drive/MyDrive/NanoSentinel/results/gradcam/NS-DIVERSE-003_gradcam.png"
+  },
+  "severity": {
+    "total_die_pixels": 2460,
+    "defective_die_pixels": 219,
+    "defect_ratio_percent": 8.9,
+    "severity_category": "HIGH",
+    "note": "Provisional map-based category; thresholds are not validated against manufacturing quality standards."
+  },
+  "decision": {
+    "predicted_class": "none",
+    "confidence_percent": 72.15,
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "decision_reason": "Moderate prediction confidence.",
+    "recommendation": "No defect pattern predicted. Follow the normal inspection and quality-control procedure.",
+    "severity_score": null,
+    "severity_note": "Physical defect severity is not yet calibrated; no numerical severity score assigned."
+  }
+}

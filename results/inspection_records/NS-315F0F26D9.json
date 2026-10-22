@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-315F0F26D9",
+  "timestamp_utc": "2026-10-22T13:24:32.165287+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0067.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 56.23,
+    "probabilities": {
+      "Center": 0.00131736,
+      "Donut": 0.01354524,
+      "Edge-Loc": 0.24152966,
+      "Edge-Ring": 0.13314903,
+      "Loc": 0.01166499,
+      "Near-full": 0.01027991,
+      "Random": 0.00568164,
+      "Scratch": 0.56230044,
+      "none": 0.02053176
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 2571,
+    "defect_ratio_percent": 45.98,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 56.23,
+  "probabilities": {
+    "Center": 0.00131736,
+    "Donut": 0.01354524,
+    "Edge-Loc": 0.24152966,
+    "Edge-Ring": 0.13314903,
+    "Loc": 0.01166499,
+    "Near-full": 0.01027991,
+    "Random": 0.00568164,
+    "Scratch": 0.56230044,
+    "none": 0.02053176
+  },
+  "filename": "demo_wafer_0067.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 2571,
+  "defect_ratio_percent": 45.98,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:32.165287+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-315F0F26D9.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-315F0F26D9_inspection_report.pdf"
+}

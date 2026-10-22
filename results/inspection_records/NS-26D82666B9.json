@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-26D82666B9",
+  "timestamp_utc": "2026-10-22T13:24:29.505422+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0051.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Random",
+    "confidence_percent": 99.95,
+    "probabilities": {
+      "Center": 3.305e-05,
+      "Donut": 5.932e-05,
+      "Edge-Loc": 0.00014404,
+      "Edge-Ring": 2.806e-05,
+      "Loc": 7.649e-05,
+      "Near-full": 7.831e-05,
+      "Random": 0.99953699,
+      "Scratch": 3.79e-06,
+      "none": 3.999e-05
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 3936,
+    "defect_ratio_percent": 70.39,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Random",
+  "confidence_percent": 99.95,
+  "probabilities": {
+    "Center": 3.305e-05,
+    "Donut": 5.932e-05,
+    "Edge-Loc": 0.00014404,
+    "Edge-Ring": 2.806e-05,
+    "Loc": 7.649e-05,
+    "Near-full": 7.831e-05,
+    "Random": 0.99953699,
+    "Scratch": 3.79e-06,
+    "none": 3.999e-05
+  },
+  "filename": "demo_wafer_0051.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 3936,
+  "defect_ratio_percent": 70.39,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+  "status": "HIGH_CONFIDENCE_PREDICTION",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:29.505422+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-26D82666B9.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-26D82666B9_inspection_report.pdf"
+}

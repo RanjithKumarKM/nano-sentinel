@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-487DA18144",
+  "timestamp_utc": "2026-10-22T14:59:37.766962+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_donut.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 99.99,
+    "probabilities": {
+      "Center": 1.538e-05,
+      "Donut": 0.99988365,
+      "Edge-Loc": 2.4e-07,
+      "Edge-Ring": 7.51e-06,
+      "Loc": 6.365e-05,
+      "Near-full": 2.4e-07,
+      "Random": 6e-07,
+      "Scratch": 1.336e-05,
+      "none": 1.533e-05
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 1240,
+    "defect_ratio_percent": 22.17,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Donut",
+  "confidence_percent": 99.99,
+  "probabilities": {
+    "Center": 1.538e-05,
+    "Donut": 0.99988365,
+    "Edge-Loc": 2.4e-07,
+    "Edge-Ring": 7.51e-06,
+    "Loc": 6.365e-05,
+    "Near-full": 2.4e-07,
+    "Random": 6e-07,
+    "Scratch": 1.336e-05,
+    "none": 1.533e-05
+  },
+  "filename": "demo_donut.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 1240,
+  "defect_ratio_percent": 22.17,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+  "status": "HIGH_CONFIDENCE_PREDICTION",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T14:59:37.766962+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-487DA18144.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-487DA18144_inspection_report.pdf"
+}

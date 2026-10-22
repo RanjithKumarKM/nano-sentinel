@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-C34281C367",
+  "timestamp_utc": "2026-10-22T13:24:26.421633+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0030.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Loc",
+    "confidence_percent": 81.29,
+    "probabilities": {
+      "Center": 0.00012892,
+      "Donut": 0.00038417,
+      "Edge-Loc": 0.01369195,
+      "Edge-Ring": 0.00029879,
+      "Loc": 0.81291831,
+      "Near-full": 0.00027742,
+      "Random": 0.00042846,
+      "Scratch": 0.08958295,
+      "none": 0.08228911
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 270,
+    "defect_ratio_percent": 4.83,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Loc",
+  "confidence_percent": 81.29,
+  "probabilities": {
+    "Center": 0.00012892,
+    "Donut": 0.00038417,
+    "Edge-Loc": 0.01369195,
+    "Edge-Ring": 0.00029879,
+    "Loc": 0.81291831,
+    "Near-full": 0.00027742,
+    "Random": 0.00042846,
+    "Scratch": 0.08958295,
+    "none": 0.08228911
+  },
+  "filename": "demo_wafer_0030.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 270,
+  "defect_ratio_percent": 4.83,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:26.421633+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-C34281C367.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-C34281C367_inspection_report.pdf"
+}

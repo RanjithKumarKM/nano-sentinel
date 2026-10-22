@@ -1,0 +1,46 @@
+{
+  "inspection_id": "NS-000001",
+  "timestamp_utc": "2026-10-12T13:35:07.289113+00:00",
+  "source": {
+    "dataset_row_id": 186,
+    "true_label": "Edge-Ring"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Edge-Loc",
+    "confidence_percent": 96.52,
+    "probabilities": {
+      "Center": 4.6e-05,
+      "Donut": 5.1e-05,
+      "Edge-Loc": 0.965232,
+      "Edge-Ring": 0.000836,
+      "Loc": 0.023228,
+      "Near-full": 0.000151,
+      "Random": 1.2e-05,
+      "Scratch": 0.001767,
+      "none": 0.008677
+    }
+  },
+  "explainability": {
+    "method": "Grad-CAM",
+    "target_layer": "block_13_expand",
+    "visualization_path": "/content/drive/MyDrive/NanoSentinel/results/gradcam/edge_ring_inspection_test.png"
+  },
+  "severity": {
+    "total_die_pixels": 533,
+    "defective_die_pixels": 154,
+    "defect_ratio_percent": 28.89,
+    "severity_category": "HIGH",
+    "note": "Provisional map-based category; thresholds are not validated against manufacturing quality standards."
+  },
+  "decision": {
+    "predicted_class": "Edge-Loc",
+    "confidence_percent": 96.52,
+    "inspection_status": "MANUAL_REVIEW",
+    "decision_reason": "Known label and model prediction disagree in this validation example. This is a diagnostic record; ground-truth labels will not be available for ordinary uploads.",
+    "recommendation": "Predicted defect class: Edge-Loc. Review the wafer map and Grad-CAM before deciding on reinspection or corrective action.",
+    "severity_score": null,
+    "severity_note": "Physical defect severity is not yet calibrated; no numerical severity score assigned."
+  }
+}

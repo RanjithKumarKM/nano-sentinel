@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-66EEE8B156",
+  "timestamp_utc": "2026-10-22T13:24:31.139819+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0061.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 66.91,
+    "probabilities": {
+      "Center": 0.0280543,
+      "Donut": 0.00242909,
+      "Edge-Loc": 0.06668518,
+      "Edge-Ring": 0.01773991,
+      "Loc": 0.07460019,
+      "Near-full": 0.00063007,
+      "Random": 0.00694601,
+      "Scratch": 0.66908056,
+      "none": 0.13383473
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 218,
+    "defect_ratio_percent": 3.9,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "MANUAL_REVIEW",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 66.91,
+  "probabilities": {
+    "Center": 0.0280543,
+    "Donut": 0.00242909,
+    "Edge-Loc": 0.06668518,
+    "Edge-Ring": 0.01773991,
+    "Loc": 0.07460019,
+    "Near-full": 0.00063007,
+    "Random": 0.00694601,
+    "Scratch": 0.66908056,
+    "none": 0.13383473
+  },
+  "filename": "demo_wafer_0061.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 218,
+  "defect_ratio_percent": 3.9,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "MANUAL_REVIEW",
+  "status": "MANUAL_REVIEW",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:31.139819+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-66EEE8B156.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-66EEE8B156_inspection_report.pdf"
+}

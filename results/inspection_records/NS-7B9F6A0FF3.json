@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-7B9F6A0FF3",
+  "timestamp_utc": "2026-10-22T13:24:29.771421+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0053.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 90.66,
+    "probabilities": {
+      "Center": 5.522e-05,
+      "Donut": 9.055e-05,
+      "Edge-Loc": 0.00723809,
+      "Edge-Ring": 0.00018956,
+      "Loc": 0.08493029,
+      "Near-full": 0.00015113,
+      "Random": 0.00021397,
+      "Scratch": 0.90663171,
+      "none": 0.00049949
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 306,
+    "defect_ratio_percent": 5.47,
+    "severity_category": "HIGH",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 90.66,
+  "probabilities": {
+    "Center": 5.522e-05,
+    "Donut": 9.055e-05,
+    "Edge-Loc": 0.00723809,
+    "Edge-Ring": 0.00018956,
+    "Loc": 0.08493029,
+    "Near-full": 0.00015113,
+    "Random": 0.00021397,
+    "Scratch": 0.90663171,
+    "none": 0.00049949
+  },
+  "filename": "demo_wafer_0053.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 306,
+  "defect_ratio_percent": 5.47,
+  "severity_category": "HIGH",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+  "status": "HIGH_CONFIDENCE_PREDICTION",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:29.771421+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-7B9F6A0FF3.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-7B9F6A0FF3_inspection_report.pdf"
+}

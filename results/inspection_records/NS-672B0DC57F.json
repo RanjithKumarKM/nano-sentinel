@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-672B0DC57F",
+  "timestamp_utc": "2026-10-22T13:24:31.300823+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0062.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 100.0,
+    "probabilities": {
+      "Center": 2e-08,
+      "Donut": 1e-08,
+      "Edge-Loc": 3.45e-06,
+      "Edge-Ring": 3.02e-06,
+      "Loc": 1.6e-07,
+      "Near-full": 1e-08,
+      "Random": 2e-07,
+      "Scratch": 0.99999309,
+      "none": 1.4e-07
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 209,
+    "defect_ratio_percent": 3.74,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 100.0,
+  "probabilities": {
+    "Center": 2e-08,
+    "Donut": 1e-08,
+    "Edge-Loc": 3.45e-06,
+    "Edge-Ring": 3.02e-06,
+    "Loc": 1.6e-07,
+    "Near-full": 1e-08,
+    "Random": 2e-07,
+    "Scratch": 0.99999309,
+    "none": 1.4e-07
+  },
+  "filename": "demo_wafer_0062.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 209,
+  "defect_ratio_percent": 3.74,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "HIGH_CONFIDENCE_PREDICTION",
+  "status": "HIGH_CONFIDENCE_PREDICTION",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:31.300823+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-672B0DC57F.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-672B0DC57F_inspection_report.pdf"
+}

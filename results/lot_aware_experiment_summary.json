@@ -1,0 +1,91 @@
+{
+  "experiment": "ResNet50 fine-tuning with lot-aware validation",
+  "validation_accuracy": 0.7829581993569131,
+  "validation_macro_f1": 0.8055950893095503,
+  "training_samples": 2548,
+  "validation_samples": 622,
+  "training_lots": 1740,
+  "validation_lots": 436,
+  "shared_lots": 0,
+  "class_names": [
+    "Center",
+    "Donut",
+    "Edge-Loc",
+    "Edge-Ring",
+    "Loc",
+    "Near-full",
+    "Random",
+    "Scratch",
+    "none"
+  ],
+  "classification_report": {
+    "Center": {
+      "precision": 0.8108108108108109,
+      "recall": 0.6976744186046512,
+      "f1-score": 0.75,
+      "support": 86.0
+    },
+    "Donut": {
+      "precision": 0.9577464788732394,
+      "recall": 0.9714285714285714,
+      "f1-score": 0.9645390070921985,
+      "support": 70.0
+    },
+    "Edge-Loc": {
+      "precision": 0.6615384615384615,
+      "recall": 0.6323529411764706,
+      "f1-score": 0.6466165413533834,
+      "support": 68.0
+    },
+    "Edge-Ring": {
+      "precision": 1.0,
+      "recall": 0.9066666666666666,
+      "f1-score": 0.951048951048951,
+      "support": 75.0
+    },
+    "Loc": {
+      "precision": 0.494949494949495,
+      "recall": 0.6125,
+      "f1-score": 0.547486033519553,
+      "support": 80.0
+    },
+    "Near-full": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 11.0
+    },
+    "Random": {
+      "precision": 0.9767441860465116,
+      "recall": 0.9438202247191011,
+      "f1-score": 0.96,
+      "support": 89.0
+    },
+    "Scratch": {
+      "precision": 0.8275862068965517,
+      "recall": 0.64,
+      "f1-score": 0.7218045112781954,
+      "support": 75.0
+    },
+    "none": {
+      "precision": 0.6222222222222222,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.7088607594936709,
+      "support": 68.0
+    },
+    "accuracy": 0.7829581993569131,
+    "macro avg": {
+      "precision": 0.8168442068152546,
+      "recall": 0.8031080260400185,
+      "f1-score": 0.8055950893095503,
+      "support": 622.0
+    },
+    "weighted avg": {
+      "precision": 0.8017087900609703,
+      "recall": 0.7829581993569131,
+      "f1-score": 0.7876094522671283,
+      "support": 622.0
+    }
+  },
+  "model_path": "models/nano_sentinel_resnet50_lot_aware.keras"
+}

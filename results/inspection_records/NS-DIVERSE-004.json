@@ -1,0 +1,47 @@
+{
+  "inspection_id": "NS-DIVERSE-004",
+  "timestamp_utc": "2026-10-12T13:59:28.437322+00:00",
+  "source": {
+    "type": "labelled_dataset_diagnostic",
+    "dataset_row_id": 44,
+    "true_label": "Center"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Center",
+    "confidence_percent": 41.74,
+    "probabilities": {
+      "Center": 0.41735124588012695,
+      "Donut": 0.003991939127445221,
+      "Edge-Loc": 0.023292506113648415,
+      "Edge-Ring": 0.0001400377950631082,
+      "Loc": 0.2793535590171814,
+      "Near-full": 0.0005000423407182097,
+      "Random": 0.0011561120627447963,
+      "Scratch": 0.2707095146179199,
+      "none": 0.0035051226150244474
+    }
+  },
+  "explainability": {
+    "method": "Grad-CAM",
+    "target_layer": "block_13_expand",
+    "visualization_path": "/content/drive/MyDrive/NanoSentinel/results/gradcam/NS-DIVERSE-004_gradcam.png"
+  },
+  "severity": {
+    "total_die_pixels": 2460,
+    "defective_die_pixels": 315,
+    "defect_ratio_percent": 12.8,
+    "severity_category": "HIGH",
+    "note": "Provisional map-based category; thresholds are not validated against manufacturing quality standards."
+  },
+  "decision": {
+    "predicted_class": "Center",
+    "confidence_percent": 41.74,
+    "inspection_status": "MANUAL_REVIEW",
+    "decision_reason": "Low prediction confidence.",
+    "recommendation": "Predicted defect class: Center. Review the wafer map and Grad-CAM before deciding on reinspection or corrective action.",
+    "severity_score": null,
+    "severity_note": "Physical defect severity is not yet calibrated; no numerical severity score assigned."
+  }
+}

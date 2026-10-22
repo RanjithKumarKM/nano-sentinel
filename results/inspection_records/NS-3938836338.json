@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-3938836338",
+  "timestamp_utc": "2026-10-22T13:24:36.913558+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0097.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Scratch",
+    "confidence_percent": 81.23,
+    "probabilities": {
+      "Center": 0.0048995,
+      "Donut": 0.00473155,
+      "Edge-Loc": 0.04237925,
+      "Edge-Ring": 0.04080956,
+      "Loc": 0.03663129,
+      "Near-full": 0.00016947,
+      "Random": 0.01092322,
+      "Scratch": 0.81231982,
+      "none": 0.04713636
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 253,
+    "defect_ratio_percent": 4.52,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Scratch",
+  "confidence_percent": 81.23,
+  "probabilities": {
+    "Center": 0.0048995,
+    "Donut": 0.00473155,
+    "Edge-Loc": 0.04237925,
+    "Edge-Ring": 0.04080956,
+    "Loc": 0.03663129,
+    "Near-full": 0.00016947,
+    "Random": 0.01092322,
+    "Scratch": 0.81231982,
+    "none": 0.04713636
+  },
+  "filename": "demo_wafer_0097.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 253,
+  "defect_ratio_percent": 4.52,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:36.913558+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-3938836338.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-3938836338_inspection_report.pdf"
+}

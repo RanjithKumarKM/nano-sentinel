@@ -1,0 +1,61 @@
+{
+  "inspection_id": "NS-CB178811B7",
+  "timestamp_utc": "2026-10-22T13:24:35.188447+00:00",
+  "source": {
+    "type": "uploaded_npy",
+    "filename": "demo_wafer_0086.npy"
+  },
+  "model": {
+    "name": "MobileNetV2",
+    "version": "V2",
+    "predicted_class": "Donut",
+    "confidence_percent": 72.41,
+    "probabilities": {
+      "Center": 0.20712991,
+      "Donut": 0.72412169,
+      "Edge-Loc": 6.193e-05,
+      "Edge-Ring": 1.525e-05,
+      "Loc": 0.06774186,
+      "Near-full": 1.66e-06,
+      "Random": 0.00010035,
+      "Scratch": 0.00017206,
+      "none": 0.0006553
+    }
+  },
+  "severity": {
+    "total_die_pixels": 5592,
+    "defective_die_pixels": 279,
+    "defect_ratio_percent": 4.99,
+    "severity_category": "MODERATE",
+    "note": "Provisional pixel-map heuristic; not validated against manufacturing standards."
+  },
+  "decision": {
+    "inspection_status": "REVIEW_RECOMMENDED",
+    "recommendation": "Review the wafer map and model output before taking corrective action."
+  },
+  "predicted_class": "Donut",
+  "confidence_percent": 72.41,
+  "probabilities": {
+    "Center": 0.20712991,
+    "Donut": 0.72412169,
+    "Edge-Loc": 6.193e-05,
+    "Edge-Ring": 1.525e-05,
+    "Loc": 0.06774186,
+    "Near-full": 1.66e-06,
+    "Random": 0.00010035,
+    "Scratch": 0.00017206,
+    "none": 0.0006553
+  },
+  "filename": "demo_wafer_0086.npy",
+  "total_die_pixels": 5592,
+  "defective_die_pixels": 279,
+  "defect_ratio_percent": 4.99,
+  "severity_category": "MODERATE",
+  "note": "Provisional pixel-map heuristic; not validated against manufacturing standards.",
+  "inspection_status": "REVIEW_RECOMMENDED",
+  "status": "REVIEW_RECOMMENDED",
+  "recommendation": "Review the wafer map and model output before taking corrective action.",
+  "timestamp": "2026-10-22T13:24:35.188447+00:00",
+  "record_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\results\\inspection_records\\NS-CB178811B7.json",
+  "report_path": "C:\\Users\\ranji\\Downloads\\NanoSentinel\\reports\\NS-CB178811B7_inspection_report.pdf"
+}
